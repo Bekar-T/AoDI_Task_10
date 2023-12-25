@@ -56,10 +56,19 @@
         flex-direction: column;
         row-gap: 20px;
     }
+
     #section_3 article {
         align-items: center;
     }
-    #section_3 article p{
+
+    #section_3 article p {
         text-align: center;
+    }
+
+    /* footer */
+
+    footer {
+        flex-direction: column;
+        row-gap: 12px;
     }
 }

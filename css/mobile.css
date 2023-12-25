@@ -22,4 +22,10 @@
     #section_2 article p {
         font-size: 14px;
     }
+
+    /* footer */
+
+    footer {
+        align-items: center;
+    }
 }
