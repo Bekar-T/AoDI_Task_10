@@ -55,6 +55,7 @@
         height: 100%;
         flex-direction: column;
         row-gap: 20px;
+        padding: 40px 24px;
     }
 
     #section_3 article {
@@ -70,5 +71,6 @@
     footer {
         flex-direction: column;
         row-gap: 12px;
+        padding: 40px;
     }
 }
