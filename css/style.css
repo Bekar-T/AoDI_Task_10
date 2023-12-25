@@ -103,7 +103,7 @@ header nav ul li {
 #section_2 img {
     border-radius: 32px;
     object-fit: cover;
-    width: 490px;
+    width: 50%;
     height: 400px;
     flex-shrink: 0;
 }
@@ -113,6 +113,7 @@ header nav ul li {
     width: 490px;
     flex-direction: column;
     row-gap: 20px;
+    column-gap: 20px;
 }
 
 #section_2 article h4 {

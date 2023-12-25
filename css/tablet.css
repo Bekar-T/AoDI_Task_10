@@ -1,25 +1,47 @@
 @media (max-width: 750px) {
     /* header */
 
-    header nav{
+    header nav {
         display: none;
     }
 
-    #button_state_1{
+    #button_state_1 {
         display: none;
     }
 
-    #button_state_2{
+    #button_state_2 {
         display: block;
     }
 
     /* section 1 */
 
-    #section_1{
+    #section_1 {
         height: 320px;
     }
-    #section_1 h2{
+
+    #section_1 h2 {
         font-size: 36px;
         line-height: initial;
+    }
+
+    /* section 2 */
+
+    #section_2 img {
+        height: 320px;
+    }
+
+    #section_2 article {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #section_2 article h4 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #section_2 article p {
+        width: 100%;
+        text-align: center;
     }
 }
