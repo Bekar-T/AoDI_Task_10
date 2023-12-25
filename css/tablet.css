@@ -1,4 +1,6 @@
-@media (max-width: 680px) {
+@media (max-width: 750px) {
+    /* header */
+
     header nav{
         display: none;
     }
@@ -9,5 +11,15 @@
 
     #button_state_2{
         display: block;
+    }
+
+    /* section 1 */
+
+    #section_1{
+        height: 320px;
+    }
+    #section_1 h2{
+        font-size: 36px;
+        line-height: initial;
     }
 }
