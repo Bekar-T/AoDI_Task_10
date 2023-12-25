@@ -26,6 +26,10 @@
 
     /* section 2 */
 
+    #section_2 {
+        padding: 24px;
+    }
+
     #section_2 img {
         height: 320px;
     }
@@ -42,6 +46,20 @@
 
     #section_2 article p {
         width: 100%;
+        text-align: center;
+    }
+
+    /* section 3 */
+
+    #section_3 {
+        height: 100%;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    #section_3 article {
+        align-items: center;
+    }
+    #section_3 article p{
         text-align: center;
     }
 }
